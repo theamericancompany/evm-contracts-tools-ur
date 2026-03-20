@@ -50,7 +50,7 @@ if [[ ! -v "_offline" ]]; then
   _offline="false"
 fi
 if [[ ! -v "_git_service" ]]; then
-  _git_service="gitlab"
+  _git_service="github"
 fi
 if [[ ! -v "_archive_format" ]]; then
   if [[ "${_git}" == "true" ]]; then
@@ -85,7 +85,7 @@ if [[ "${_docs}" == "true" ]]; then
 fi
 pkgver="0.0.0.0.0.0.0.0.1.1.1.1.1"
 _commit="37e21a70aa35cef32df97646cc02cdc8fe79aefd"
-pkgrel=6
+pkgrel=7
 _pkgdesc=(
   "EVM networks smart contracts tools."
 )
@@ -172,7 +172,8 @@ if [[ "${_offline}" == "true" ]]; then
 fi
 _sum="4862131058a9646e54439f98ea21de28ebb71bd8faaf94e8d2aa6b24f8d126f1"
 _sig_sum="e6a9261dffaee17f84eb50eb1be762c324fc22d3bbb9b4a26da3f27e83300d3b"
-_github_sum='6a25e561ab17fb2d854e198433bac03532018560428e78c0f802604960561926'
+_github_sum="6c98e5cf4c77f55f34ea9cdd1b30f3c448144c8c7465bebbe783857474cd098f"
+_github_sig_sum="f4edbd032f5b0af607fab1225d458aeac08963ff069817e75cc7582b153f837c"
 # Dvorak
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
 _evmfs_network="100"
